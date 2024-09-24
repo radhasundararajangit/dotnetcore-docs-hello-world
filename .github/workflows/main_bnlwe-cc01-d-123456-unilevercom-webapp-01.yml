@@ -59,7 +59,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'bnlwe-cc01-d-123456-unilevercom-webapp-01'
+          app-name: 'bnlwe-cc01-d-123456-unilevercom-webapp-02'
           slot-name: 'Production'
           package: .
           
